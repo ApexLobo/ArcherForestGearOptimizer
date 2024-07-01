@@ -57,7 +57,6 @@
             cmbCategory = new ComboBox();
             lblCategory = new Label();
             btnSaveGearToFile = new Button();
-            contextMenuStrip1 = new ContextMenuStrip(components);
             tabControlGear.SuspendLayout();
             tabPageBows.SuspendLayout();
             tabPageQuivers.SuspendLayout();
@@ -400,11 +399,6 @@
             btnSaveGearToFile.UseVisualStyleBackColor = true;
             btnSaveGearToFile.Click += btnSaveGearToFile_Click;
             // 
-            // contextMenuStrip1
-            // 
-            contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(61, 4);
-            // 
             // frmGear
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -460,6 +454,5 @@
         private Label lblType;
         private ComboBox cmbCategory;
         private Label lblCategory;
-        private ContextMenuStrip contextMenuStrip1;
     }
 }
